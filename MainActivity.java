@@ -16,8 +16,10 @@ public class MainActivity
         while(!game.getIsFinished())
             switch(game.exit())
             {
-                case 2: System.out.println("You are heading into room 2");
-                        game = new Room2();
+                case 2: game = new Room2();
+                        game.entry();
+                        break;
+                case 3: game = new Room3();
                         game.entry();
                         break;
                 default: game.setIsFinished(true);
