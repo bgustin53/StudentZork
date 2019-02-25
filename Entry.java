@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Room1 extends Location
+public class Entry extends Location
 {
     // instance variables - replace the example below with your own
     private String name;
@@ -13,7 +13,7 @@ public class Room1 extends Location
     /**
      * Constructor for objects of class Region1
      */
-    public Room1()
+    public Entry()
     {
         super();
     }
