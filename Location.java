@@ -1,13 +1,12 @@
 
 /**
- * Abstract class Region - write a description of the class here
+ * Abstract class
  *
- * @author (your name here)
- * @version (version number or date here)
+ * @author Bruce Gustin
+ * @version 2/25/2019
  */
-public abstract class Location extends Zork
+public abstract class Location 
 {
-    
     public abstract void entry();
     public abstract int exit();
 }

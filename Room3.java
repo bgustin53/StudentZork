@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Room3 extends Location
+public class Room1 implements Location
 {
     // instance variables - replace the example below with your own
     private String name;

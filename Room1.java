@@ -16,18 +16,17 @@ public class Room1 extends Location
     public Room1()
     {
         super();
-        //regionExit();
     }
     
     public void entry()
     {
-        System.out.println("You entered room 1.");
+        System.out.println("You entered room 2.");
     }
     
     public int exit()
     {
-        System.out.println("You left the room from the North.");
-        return 2;
+        System.out.println("You left the room from the South.");
+        return 99;
     }
 
 }
