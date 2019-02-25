@@ -20,7 +20,7 @@ public class Entry extends Location
     
     public void entry()
     {
-        System.out.println("You entered room 2.");
+        System.out.println("You entered the game.");
     }
     
     public int exit()
