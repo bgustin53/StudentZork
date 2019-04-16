@@ -9,18 +9,21 @@ public class MainActivity
 {
     public static void main(String[] args)
     {
-        final int LAST_ROOM = 99;  
-        int currentRoom = 0;
+        final int LAST_SECTOR = 99;  
+        int currentSector = 62;
         Location game = null;
-        while(currentRoom <= LAST_ROOM)
+        while(currentSector <= LAST_SECTOR)
         {
-            switch(currentRoom)
+            switch(currentSector)
             {
-                case 0  : game = new Entry();
-                          game.entry();
-                          currentRoom = game.locationPlay();
+                case 62  : game = new Entry();
+                          break;
+                case 76  : game = new Zzrkmen();
                           break;
             }
+            game.entry();
+            game.locationPlay();
+            currentSector = game.exit();
         }
         System.out.println("Game over");
     }
