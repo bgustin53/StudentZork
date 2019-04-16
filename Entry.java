@@ -23,10 +23,10 @@ public class Entry extends Location
         System.out.println("You entered the game.");
     }
     
-    public int exit()
+    public int locationPlay()
     {
         System.out.println("You left the room from the South.");
-        return 99;
+        return 100;
     }
 
 }

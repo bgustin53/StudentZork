@@ -8,5 +8,5 @@
 public abstract class Location 
 {
     public abstract void entry();
-    public abstract int exit();
+    public abstract int locationPlay();
 }

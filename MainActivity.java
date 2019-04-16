@@ -9,12 +9,19 @@ public class MainActivity
 {
     public static void main(String[] args)
     {
-        //Greeting Message
-        
-        //Option to get Instructions
-        Location game = new Entry();
-        game.entry();
-        
-        //Exit Message
+        final int LAST_ROOM = 99;  
+        int currentRoom = 0;
+        Location game = null;
+        while(currentRoom <= LAST_ROOM)
+        {
+            switch(currentRoom)
+            {
+                case 0  : game = new Entry();
+                          game.entry();
+                          currentRoom = game.locationPlay();
+                          break;
+            }
+        }
+        System.out.println("Game over");
     }
 }
