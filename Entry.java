@@ -1,10 +1,11 @@
 
-/**
- * Write a description of class Region1 here.
+/*****************************************************
+ * Beginning level.  In this level player can mine
+ * a planet to get additional coin.
  *
- * @author (your name)
- * @version (a version number or a date)
- */
+ * @author Bruce Gustin
+ * @version 4/16/2019
+ *****************************************************/
 public class Entry extends Location
 {
     private ShipOptions options;
@@ -19,11 +20,8 @@ public class Entry extends Location
     {
         String message = "Your spaceship appears adrift in what appears to be sector 62 of " +
                          "the Kebrea quadrant." +
-                         "\nYou see a planet in the distance with lots of debris in between." + 
-                         "\n\nYour current health is: " + getHealth() + 
-                         "\nYour current coin is: " + getCoin() +
-                         "\n";
-                         
+                         "\nYou see a planet in the distance with lots of debris in between.";
+        message += healthAndCoinText();                       
         System.out.println(message);
     }
     

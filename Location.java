@@ -1,10 +1,10 @@
 
-/**
- * Abstract class
+/****************************************************
+ * Abstract class 
  *
  * @author Bruce Gustin
- * @version 2/25/2019
- */
+ * @version 4/16/2019
+ ****************************************************/
 public abstract class Location 
 {
     private Health health = new Health();
@@ -18,6 +18,12 @@ public abstract class Location
     
     //********* concrete methods ***************************    
     
+    public String healthAndCoinText()
+    {
+        return "\n\nYour current health is: " + health.getHealth() + 
+               "\nYour current coin is: " + coin.getCoin() + "\n";
+    }
+                         
     public int getHealth()
     {
         return health.getHealth();

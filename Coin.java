@@ -1,9 +1,10 @@
-/**
- * Write a description of class coin here.
+/**********************************************
+ * Keeps track of player money
  *
- * @author (your name)
- * @version (a version number or a date)
- */
+ * @author Bruce Gustin
+ * @version 4/16/2019
+ **********************************************/
+ 
 public class Coin
 {
     private static int coin = 10;   //initial coin for this game

@@ -1,10 +1,11 @@
 
-/**
- * Write a description of class Region1 here.
+/*****************************************************
+ * Another random level.  This level has no gameplay.
  *
- * @author (your name)
- * @version (a version number or a date)
- */
+ * @author Bruce Gustin
+ * @version 4/16/2019
+ *****************************************************/
+ 
 public class Zzrkmen extends Location
 {
     // instance variables - replace the example below with your own
@@ -20,11 +21,8 @@ public class Zzrkmen extends Location
     
  public void entry()
     {
-        String message = "Your spaceship appears hav moved to Ortjik in sector 76" +
-                         "\n\nYour current health is: " + getHealth() + 
-                         "\nYour current coin is: " + getCoin() +
-                         "\n";
-                         
+        String message = "Your spaceship appears to have moved to Ortjik in sector 76";
+        message += healthAndCoinText();              
         System.out.println(message);
     }
     

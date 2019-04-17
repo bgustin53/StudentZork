@@ -1,10 +1,11 @@
 
-/**
- * Write a description of class Health here.
+/**********************************************
+ * Keeps track of player health
  *
- * @author (your name)
- * @version (a version number or a date)
- */
+ * @author Bruce Gustin
+ * @version 4/16/2019
+ **********************************************/
+ 
 public class Health
 {
     private static int health = 3;  // initial health for this game
