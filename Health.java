@@ -8,7 +8,7 @@
  
 public class Health
 {
-    private static int health = 3;  // initial health for this game
+    private static int health = 2;  // initial health for this game
 
     public void setHealth(boolean down)
     { 
